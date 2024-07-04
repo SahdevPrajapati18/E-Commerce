@@ -130,6 +130,7 @@ const close = document.querySelector(".close");
 
 productButton.addEventListener("click", () => {
   payment.style.display = "flex";
+  payment.scrollIntoView({behavior:'smooth'});
 });
 
 close.addEventListener("click", () => {
